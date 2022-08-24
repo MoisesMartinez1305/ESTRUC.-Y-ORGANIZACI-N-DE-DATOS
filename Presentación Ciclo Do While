@@ -1,0 +1,114 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Ciclo Do While",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MoisesMartinez1305/ESTRUC.-Y-ORGANIZACI-N-DE-DATOS/blob/UNIDAD-1/Presentaci%C3%B3n%20Ciclo%20Do%20While\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#CICLO DO WHILE\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        ">  **Gema Lizeth López Mendoza**\n",
+        "\n",
+        ">  **Moisés Martínez Vázquez**\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "z27LYPXjhWnz"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "###¿Que es el ciclo Do While?\n",
+        "El ciclo do-while es un tipo de estructura repetitiva eficiente. Lo que lo diferencia con el while es que en la estructura do-while la condición se evalúa al finalizar el ciclo.\n",
+        "\n",
+        "Los ciclos do-while tambien son una estructura de control cíclica, los cuales nos permiten ejecutar una o varias líneas de código de forma repetitiva sin necesidad de tener un valor inicial"
+      ],
+      "metadata": {
+        "id": "JoJ8BZsJlXS1"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "###¿Cómo ejecutarlo?\n",
+        "La ejecución de esta estructura se realiza de la siguiente manera.\n",
+        "\n",
+        "# 1.- Se ejecutan las instrucciones que se encuentran dentro del do, para esto es necesario ponerlas entre llaves.\n",
+        "\n",
+        ">>do {\n",
+        ">>>Instrucción }\n",
+        "\n",
+        "2.- Después evalúa la expresión dentro de while. Si la expresión es falsa, el ciclo do-while finaliza y pasa a la siguiente instrucción del programa. Si la expresión es verdadera, el ciclo se repite."
+      ],
+      "metadata": {
+        "id": "63R5T_MhoeEe"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "####Ejemplo:"
+      ],
+      "metadata": {
+        "id": "Ry-Cjb7GrMWW"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "palabra_secreta = \"python\"\n",
+        "counter = 0\n",
+        "\n",
+        "while True:\n",
+        "    palabra = input(\"Ingresa la palabra secreta: \").lower()\n",
+        "    counter = counter + 1\n",
+        "    if palabra == palabra_secreta:\n",
+        "        break\n",
+        "    if palabra != palabra_secreta and counter > 7: \n",
+        "        break"
+      ],
+      "metadata": {
+        "id": "3W7TkMzWqjrT"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
